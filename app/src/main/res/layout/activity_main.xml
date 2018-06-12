@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="20dp"
+    tools:context=".Activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_video1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点头"
+        android:onClick="start"/>
+    <Button
+        android:id="@+id/btn_video2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="眨眼"
+        android:onClick="start"/>
+    <Button
+        android:id="@+id/btn_video3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="转头"
+        android:onClick="start"/>
+
+</LinearLayout>
